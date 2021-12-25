@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000;
+    background-color: rgb(0, 0, 0);
 }
 
 .nav-links{
@@ -37,6 +37,7 @@
     font-size: 2rem;
     font-weight: bold;
 }
+
 .brand-logo a{
     color: #fff;
     text-decoration: none;
@@ -44,4 +45,62 @@
 }
 .brand-logo a:hover{
     color: #33ff00;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-item{
+    width: 30%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px whitesmoke;
+    max-width: 300px;
+    min-width: 200px;
+}
+.card-image img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.card-content p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.card-content span{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    cursor: pointer;
 }
